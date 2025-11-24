@@ -1,8 +1,9 @@
 ♟️ Chess Application
 A complete, feature-rich chess game built with vanilla JavaScript that implements all standard chess rules with a clean, interactive interface.
 
-📁 Project Structure
-text
+📁 **Project Structure**
+
+```
 CHESS-APP/
 ├── assets/
 │   ├── images/
@@ -21,26 +22,27 @@ CHESS-APP/
 │   │           ├── pawn.png
 │   │           ├── queen.png
 │   │           └── rook.png
-│   └── styles.css           # All styling & visual design
+│   └── styles.css
 ├── data/
-│   ├── data.js              # Board initialization & square management
-│   ├── data.json            # Game configuration data
-│   └── pieces.js            # Piece definitions & factory functions
+│   ├── data.js
+│   ├── data.json
+│   └── pieces.js
 ├── events/
-│   └── global.js            # Main game logic & event handlers
+│   └── global.js
 ├── helper/
-│   ├── commonHelper.js      # Movement calculation & validation utilities
-│   ├── constants.js         # Application constants
-│   └── modalCreator.js      # Pawn promotion modal system
+│   ├── commonHelper.js
+│   ├── constants.js
+│   └── modalCreator.js
 ├── Others/
-│   └── HypotheticalBoard.js # Board simulation for move validation
+│   └── HypotheticalBoard.js
 ├── render/
-│   └── main.js              # DOM rendering & visual updates
-├── index.html               # Main HTML file
-├── index.js                 # Application entry point
-├── package.json             # Project dependencies
-├── package-lock.json        # Dependency lock file
-└── README.md                # Project documentation
+│   └── main.js
+├── index.html
+├── index.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
 🎯 Features
 Core Gameplay
 Complete Chess Rules - All standard moves and captures
